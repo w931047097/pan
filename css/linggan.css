@@ -1,0 +1,493 @@
+@charset "utf-8";
+
+/*css document*/
+body,
+div,
+p,
+ul,
+ol,
+li,
+dl,
+dt,
+dd,
+table,
+tr,
+td,
+th,
+form,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+input,
+textarea,
+fieldset,
+figure,
+img {
+	margin: 0;
+	padding: 0;
+}
+
+body {
+	font-family: "微软雅黑", Arial;
+}
+
+ul,
+ol {
+	list-style: none;
+}
+
+a {
+	text-decoration: none;
+}
+
+img {
+	border: 0;
+}
+
+input,
+select,
+textarea,
+button {
+	-webkit-appearance: none;
+	border: 0;
+	outline: 0;
+	resize: none;
+	font-size: inherit;
+	margin: 0;
+	font-family: inherit;
+}
+
+
+.clearfix {
+	content: "";
+	display: block;
+	height: 0;
+	clear: both;
+	overflow: hidden;
+	visibility: hidden;
+}
+
+.photos a {
+	display: block;
+	width: 1000px;
+	margin: 0 auto;
+}
+
+.txt {
+	width: 352px;
+	margin: 0 auto;
+	text-align: center
+}
+
+.txt1 {
+	font-size: 43px;
+	color: black;
+	line-height: 80px;
+	margin-top: 40px;
+}
+
+.photoA {
+	overflow: hidden;
+	width: 960px;
+	margin: 0 auto;
+	margin-top: 65px;
+
+}
+
+.photoC img {
+	display: block;
+	width: 474px;
+	height: 711px;
+	float: left;
+	margin-right: 12px;
+}
+
+.photoD img {
+	display: block;
+	width: 474px;
+	height: 383px;
+	margin-bottom: 12px;
+}
+
+.photoE img {
+	display: block;
+	width: 474px;
+	height: 316px;
+}
+
+#photoB {
+	margin-left: 40px;
+}
+
+.photoA {
+	position: relative;
+}
+
+.photoC p {
+	position: absolute;
+	top: 600px;
+	left: 30px;
+	color: #333;
+}
+
+.photoC h6 {
+	position: absolute;
+	top: 631px;
+	left: 30px;
+	color: white;
+	border-bottom: 3px solid black;
+	background-color: black;
+	width: 90px;
+	height: 40px;
+	text-align: center;
+	line-height: 40px;
+}
+
+.photoD h6 {
+	position: absolute;
+	top: 330px;
+	left: 530px;
+	color: white;
+	border-bottom: 3px solid black;
+	background-color: black;
+	width: 90px;
+	height: 40px;
+	text-align: center;
+	line-height: 40px;
+}
+
+.photoD p {
+	position: absolute;
+	top: 300px;
+	left: 520px;
+	color: #333;
+}
+
+.photoE h6 {
+	position: absolute;
+	top: 631px;
+	left: 530px;
+	color: white;
+	border-bottom: 3px solid black;
+	background-color: black;
+	width: 90px;
+	height: 40px;
+	text-align: center;
+	line-height: 40px;
+}
+
+.photoE p {
+	position: absolute;
+	top: 600px;
+	left: 520px;
+	color: #333;
+}
+
+.spp p {
+	font-size: 35px;
+	color: black;
+	text-align: center;
+	margin-top: 35px;
+}
+
+.market {
+	overflow: hidden;
+	width: 960px;
+	padding-left: 20px;
+	margin: 0 auto;
+	margin-top: 20px;
+}
+
+.market_con {
+	margin-top: 16px;
+	margin: 0 auto;
+}
+
+.list {
+	width: 226px;
+	height: 250px;
+	float: left;
+	margin: 0 auto;
+	position: relative;
+	left: 0;
+	top: 0;
+	padding: 5px;
+	border: 1px solid gainsboro;
+	position: relative;
+	padding-top: 80px;
+	border-left: none;
+	border-top: none;
+
+}
+
+.list>img {
+	margin-left: 30px;
+	width: 159px;
+	height: 159px;
+	cursor: pointer;
+
+}
+
+.add {
+	position: absolute;
+	right: 100px;
+	top: 5px;
+
+
+}
+
+.list i {
+	display: block;
+	height: 50px;
+	font-size: 10px;
+	color: #7b7b7b;
+	text-align: center;
+	cursor: pointer;
+
+
+}
+
+.list p {
+	display: block;
+	height: 20px;
+	line-height: 20px;
+	font-size: 10px;
+	color: #999;
+	text-align: center;
+
+}
+
+.list a:last-child {
+	display: block;
+	height: 50px;
+}
+
+.zzp {
+	border-top: 1px solid gainsboro;
+}
+
+.yuto {
+	width: 960px;
+	overflow: hidden;
+	margin: 0 auto;
+	position: relative;
+}
+
+.yuto img {
+	display: block;
+	width: 480px;
+	height: 480px;
+	float: left;
+}
+
+.yuto h2 {
+	font-family: Optima LT W01 Roman;
+	font-size: 32px;
+	position: absolute;
+	color: white;
+	margin-left: 610px;
+	margin-top: 160px;
+}
+
+.yuto p {
+	position: absolute;
+	color: white;
+	margin-left: 580px;
+	margin-top: 220px;
+}
+
+.yuto h6 {
+	position: absolute;
+	color: white;
+	margin-left: 610px;
+	margin-top: 260px;
+	border: 1px solid gainsboro;
+	height: 40px;
+	width: 200px;
+	line-height: 40px;
+	text-align: center;
+	font-size: 15px;
+}
+
+.photoS {
+	overflow: hidden;
+	width: 960px;
+	margin: 0 auto;
+	margin-top: 65px;
+
+}
+
+.photoS-a img {
+	width: 473px;
+	height: 315px;
+	margin-right: 12px;
+}
+
+
+
+
+.photoS-c img {
+	display: block;
+	width: 473px;
+	height: 315px;
+	margin-bottom: 12px;
+}
+
+#photoS-b {
+	margin-left: 40px;
+}
+
+.txt-a {
+	float: left;
+	width: 473px;
+	height: 506px;
+	border: 1px solid gainsboro;
+
+}
+
+.txt-b {
+	float: left;
+	width: 473px;
+	height: 506px;
+	border: 1px solid gainsboro;
+	margin-left: 10px;
+}
+
+.txt-a h2 {
+	font-family: Optima LT W01 Roman;
+	font-weight: 400;
+	font-size: 20px;
+	text-transform: uppercase;
+	text-align: center;
+	margin-top: 20px;
+	color: #333;
+}
+
+.txt-a p {
+	color: #333;
+	font-family: Optima LT W01 Roman;
+	font-weight: 400;
+	font-size: 12px;
+	text-align: center;
+	margin-top: 20px;
+}
+
+.txt-a h6 {
+	font-family: Optima LT W01 Roman;
+	border: 1px solid black;
+	width: 260px;
+	height: 50px;
+	color: black;
+	margin: 0 auto;
+	margin-top: 20px;
+	line-height: 50px;
+	text-align: center;
+
+}
+
+.txt-b h2 {
+	font-family: Optima LT W01 Roman;
+	font-weight: 400;
+	font-size: 20px;
+	text-transform: uppercase;
+	text-align: center;
+	margin-top: 20px;
+	color: #333;
+}
+
+.txt-b p {
+	color: #333;
+	font-family: Optima LT W01 Roman;
+	font-weight: 400;
+	font-size: 12px;
+	text-align: center;
+	margin-top: 20px;
+}
+
+.txt-b h6 {
+	font-family: Optima LT W01 Roman;
+	border: 1px solid black;
+	width: 260px;
+	height: 50px;
+	color: black;
+	margin: 0 auto;
+	margin-top: 20px;
+	line-height: 50px;
+	text-align: center;
+
+}
+
+/*.con_bannr{
+	width: 100%;
+	height: 100%;
+	overflow: hidden;
+}*/
+/*--------------------------------*/
+
+
+
+/*---------------------------------*/
+
+/*//轮播图样式*/
+
+
+/* 本例子css */
+
+.picScroll {
+	margin: 10px auto;
+	position: relative;
+	border: 1px solid #eee;
+	width: 930px;
+	padding: 10px 0 10px 30px;
+	background: #fff;
+	overflow: hidden;
+}
+.tempWrap{
+	width: 900px !important;
+}
+
+.picScroll .prev,.picScroll .next {
+	display: block;
+	position: absolute;
+	top: 86px;
+	left: 5px;
+	width: 23px;
+	height: 23px;
+	background: url(../img/btns.png) no-repeat;
+}
+
+.picScroll .next {
+	left: auto;
+	right: 5px;
+	background-position: -25px 0;
+}
+
+.picScroll .prev:hover {
+	background-position: 0 -30px;
+}
+
+.picScroll .next:hover {
+	background-position: -25px -30px;
+}
+
+.picScroll ul {
+	overflow: hidden;
+	zoom: 1;
+}
+
+.picScroll ul li {
+	width: 120px;
+	float: left;
+	overflow: hidden;
+	padding: 0 10px;
+}
+
+.picScroll ul li img {
+	width: 120px;
+	height: 170px;
+	display: block;
+	background: url(../img/loading.gif) center center no-repeat;
+}
